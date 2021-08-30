@@ -130,11 +130,7 @@ claim(User, Niagree); # Non-injective agreement
 claim(User, Nisynch); #Non-injective synchronization
 claim(User,Secret,Pdi); # Checks whether the common key Pdi is secret
 claim(User,Secret,SKu-cs''); # Checks whether the common key SKu-cs is secret
-
-
 }
-
-
 role Cloud
 {
 const Sc,UCi,CRi;
